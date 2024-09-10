@@ -1,0 +1,11 @@
+ll gcd(ll a, ll b)
+{
+    while (b)
+    {
+        ll temp = a;
+        a = b;
+        b = temp % b;
+    }
+
+    return a;
+}
