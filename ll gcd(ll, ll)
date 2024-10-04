@@ -1,8 +1,8 @@
-ll gcd(ll a, ll b)
+int gcd(int a, int b)
 {
     while (b)
     {
-        ll temp = a;
+        int temp = a;
         a = b;
         b = temp % b;
     }
