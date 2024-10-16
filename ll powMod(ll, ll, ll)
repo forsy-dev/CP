@@ -1,6 +1,6 @@
-ll powMod(ll a, ll b, ll mod)
+int powMod(int a, int b)
 {
-    ll res = 1;
+    int res = 1;
 
     while (b)
     {
